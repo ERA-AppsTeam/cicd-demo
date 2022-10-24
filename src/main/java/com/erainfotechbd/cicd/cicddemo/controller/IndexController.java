@@ -12,6 +12,6 @@ public class IndexController {
 
     @GetMapping("")
     public String getWelcomeMessage(){
-        return "Hi form CiCd Demo Project change";
+        return "Hi form CiCd Demo Project change2";
     }
 }
