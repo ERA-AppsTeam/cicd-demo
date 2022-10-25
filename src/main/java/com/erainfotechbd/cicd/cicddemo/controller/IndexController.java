@@ -19,6 +19,7 @@ public class IndexController {
                 "3. Pull the source " +
                 "4. Build it as a war file using maven" +
                 "6. Deploy build war file to tomcat directory" +
-                "Finally Build Successful!!! ";
+                "Finally Build Successful!!! " +
+                "Success with pipeline too.. Alhamdulillah!!! ";
     }
 }
