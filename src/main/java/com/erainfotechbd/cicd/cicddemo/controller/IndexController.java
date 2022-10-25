@@ -12,6 +12,13 @@ public class IndexController {
 
     @GetMapping("")
     public String getWelcomeMessage(){
-        return "Hi form CiCd Demo Project deployed by CiCd using Jenkin";
+
+        return "Successfully completed CiCd with Jenkin" +
+                "1. User GitHub as Source Management" +
+                "2. Build Trigger every minutes to check if any commit happen" +
+                "3. Pull the source " +
+                "4. Build it as a war file using maven" +
+                "6. Deploy build war file to tomcat directory" +
+                "Finally Build Successful!!! ";
     }
 }
